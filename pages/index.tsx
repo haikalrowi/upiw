@@ -7,19 +7,40 @@ import HeaderNav from "./components/headerNav";
 export default function Home() {
   return (
     <>
-      <Head><title>Haikal Rowi &ndash; Portofolio</title></Head>
+      <link rel="stylesheet" href="/styles/index.css" />
+      <Head>
+        <title>Haikal Rowi &ndash; Portofolio</title>
+      </Head>
       <HeaderNav name='Haikal Rowi' />
       <div style={{ textAlign: 'center' }}>
         <Image
           src={profilePicture}
           alt='Foto Haikal Rowi'
           loading="lazy"
-          style={{ borderRadius: '50%', maxWidth: '12rem', height: 'auto' }}
+          style={{
+            borderRadius: '50%',
+            maxWidth: '12rem',
+            height: 'auto',
+          }}
         />
       </div>
       <article>
-        <p>Halo, saya seorang mahasiswa STIKOM PGRI Banyuwangi, jurusan S1 Teknik Informatika. Saya suka bermain dengan server.</p>
-        <p>Portofolio ini dibuat menggunakan <a href="https://nextjs.org/" target={'_blank'}>Next.js</a>,</p>
+        <p>Halo, saya seorang mahasiswa STIKOM PGRI Banyuwangi, jurusan S1 Teknik Informatika. Saya suka belajar tentang apa saja di sisi server.</p>
+        <h2>Skill</h2>
+        <div className="skill">
+          <h3>Bahasa Pemrograman</h3>
+          <div className="skill__type">
+            <span className="skill__self"><img src="/index/python.svg" alt="python" /><span>Python</span></span>
+            <span className="skill__self"><img src="/index/javascript.svg" alt="javascript" /><span>JavaScript</span></span>
+          </div>
+          <h3>Kantor</h3>
+          <div className="skill__type">
+            <span className="skill__self"><img src="/index/microsoft_word_2019.svg" alt="word" /><span>Word</span></span>
+            <span className="skill__self"><img src="/index/microsoft_excel_2019.svg" alt="excel" /><span>Excel</span></span>
+            <span className="skill__self"><img src="/index/microsoft_powerpoint_2019.svg" alt="powerpoint" /><span>PowerPoint</span></span>
+          </div>
+        </div>
+        <p style={{ color: 'grey' }}>Portofolio ini dibuat menggunakan <a href="https://nextjs.org/" target={'_blank'}>Next.js</a>, Framework <a href="https://reactjs.org/" target={'_blank'}>React</a> yang memberikan kemudahan dalam membangun aplikasi.</p>
       </article>
     </>
   )

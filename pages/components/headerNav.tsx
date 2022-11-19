@@ -1,11 +1,12 @@
 export default function (props: { name: string }) {
   return (
     <>
+      <link rel="stylesheet" href="/styles/headerNav.css" />
       <header>
         <h1>{props.name ? <>{props.name}</> : null}</h1>
       </header>
-      <nav style={{ display: 'flex', gap: '1rem', marginBottom: '1rem', marginLeft: 'auto' }}>
-        <a href="/" style={{ marginLeft: 'auto' }}>Tentang</a>
+      <nav>
+        <a href="/">Tentang</a>
         <a href="/contact">Kontak</a>
       </nav>
     </>

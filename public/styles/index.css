@@ -1,0 +1,33 @@
+.skill {
+  display: flex;
+  flex-direction: column;
+}
+.skill .skill__type {
+  display: flex;
+  align-items: flex-start;
+}
+.skill .skill__self {
+  display: flex;
+  align-items: center;
+  border: 1.33px solid black;
+  border-radius: 0.67rem;
+  margin: 0.33rem;
+  padding: 0.33rem;
+  transition: box-shadow 0.1s;
+}
+.skill .skill__self img {
+  height: 1.33rem;
+  margin-right: 0.33rem;
+}
+.skill .skill__self:hover {
+  cursor: default;
+  box-shadow: 0px 0px 4px;
+}
+
+@media (orientation: portrait) {
+  .skill .skill__type {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -3,7 +3,7 @@ body {
   padding: 0.33rem;
   margin: auto;
   font-size: 16pt;
-  font-family: sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   max-width: 720px;
 }
 
@@ -18,4 +18,17 @@ a {
 
 a:hover {
   text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table td {
+  padding: 0.33rem;
+}
+
+table td * {
+  text-align: left;
+  vertical-align: middle;
 }
