@@ -12,7 +12,7 @@ export default function Home() {
       <Head>
         <title>Haikal Rowi &ndash; Portofolio</title>
       </Head>
-      <HeaderNav name='Haikal Rowi' />
+      <HeaderNav header='Haikal Rowi' />
       <div style={{ textAlign: 'center' }}>
         <Image
           src={profilePicture}

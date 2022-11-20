@@ -9,7 +9,7 @@ export default function Contact() {
       <Head>
         <title>Haikal Rowi &ndash; Kontak</title>
       </Head>
-      <HeaderNav name="Kontak" />
+      <HeaderNav header="Kontak" />
       <article>
         <p>Saya akan mencoba membalas sesegera mungkin.</p>
         <table>
