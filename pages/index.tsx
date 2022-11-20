@@ -20,6 +20,7 @@ export default function Home() {
           loading="eager"
           style={{
             borderRadius: '50%',
+            width: '100%',
             maxWidth: '12rem',
             height: 'auto',
           }}
@@ -49,6 +50,7 @@ export default function Home() {
               alt='hackerrank'
               loading="eager"
               style={{
+                width: '100%',
                 maxWidth: '12rem',
                 height: 'auto',
               }}
