@@ -17,7 +17,7 @@ export default function Home() {
         <Image
           src={profilePicture}
           alt='Foto Haikal Rowi'
-          loading="lazy"
+          loading="eager"
           style={{
             borderRadius: '50%',
             maxWidth: '12rem',
@@ -47,7 +47,7 @@ export default function Home() {
             <Image
               src={cert1}
               alt='hackerrank'
-              loading="lazy"
+              loading="eager"
               style={{
                 maxWidth: '12rem',
                 height: 'auto',
