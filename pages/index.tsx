@@ -25,7 +25,7 @@ export default function Home() {
         />
       </div>
       <article>
-        <p>Halo, saya seorang mahasiswa STIKOM PGRI Banyuwangi, jurusan S1 Teknik Informatika. Saya suka belajar tentang apa saja di sisi server.</p>
+        <p>Halo, saya seorang mahasiswa STIKOM PGRI Banyuwangi, jurusan S1 Teknik Informatika. Saya suka belajar tentang apa saja di sisi <i>server</i>.</p>
         <h2>Skill</h2>
         <div className="skill">
           <h3>Bahasa Pemrograman</h3>
@@ -40,7 +40,7 @@ export default function Home() {
             <span className="skill__self"><img src="/index/microsoft_powerpoint_2019.svg" alt="powerpoint" /><span>PowerPoint</span></span>
           </div>
         </div>
-        <p style={{ color: 'grey' }}>Portofolio ini dibuat menggunakan <a href="https://nextjs.org/" target={'_blank'}>Next.js</a>, Framework <a href="https://reactjs.org/" target={'_blank'}>React</a> yang memberikan kemudahan dalam membangun aplikasi.</p>
+        <p style={{ color: 'gray' }}>Portofolio ini dibuat menggunakan <a href="https://nextjs.org/" target={'_blank'}>Next.js</a>, Framework <a href="https://reactjs.org/" target={'_blank'}>React</a> yang memberikan kemudahan dalam membangun aplikasi.</p>
       </article>
     </>
   )
