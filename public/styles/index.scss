@@ -5,6 +5,7 @@
   .skill__type {
     display: flex;
     align-items: flex-start;
+    flex-wrap: wrap;
   }
 
   .skill__self {
@@ -23,7 +24,17 @@
 
     &:hover {
       cursor: default;
-      box-shadow: 0px 0px 4px;
+      box-shadow: 0px 0px 4px black;
+    }
+  }
+}
+
+.certificate {
+  display: flex;
+
+  img {
+    &[alt=hackerrank] {
+      box-shadow: 0px 0px 8px #4F828B;
     }
   }
 }
