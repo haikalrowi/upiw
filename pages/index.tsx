@@ -55,7 +55,7 @@ export default function Home() {
             />
           </a>
         </div>
-        <p style={{ color: 'gray' }}>Portofolio ini dibuat menggunakan <a href="https://nextjs.org/" target={'_blank'}>Next.js</a>, Framework <a href="https://reactjs.org/" target={'_blank'}>React</a> yang memberikan kemudahan dalam membangun aplikasi.</p>
+        <p style={{ marginTop: '2rem', color: 'gray' }}>Portofolio ini dibuat menggunakan <a href="https://nextjs.org/" target={'_blank'}>Next.js</a>, Framework <a href="https://reactjs.org/" target={'_blank'}>React</a> yang memberikan kemudahan dalam membangun aplikasi.</p>
       </article>
     </>
   )
