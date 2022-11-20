@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 
-import cert1 from "../public/-certificates-abc2a3234903.png";
-import profilePicture from "../public/agfpa2fscm93aq.jpg";
+import cert1 from "../public/images/index/-certificates-abc2a3234903.png";
+import profilePicture from "../public/images/index/agfpa2fscm93aq.jpg";
 import HeaderNav from "./components/headerNav";
 
 export default function Home() {
@@ -31,14 +31,14 @@ export default function Home() {
         <div className="skill">
           <h3>Bahasa Pemrograman</h3>
           <div className="skill__type">
-            <span className="skill__self"><img src="/index/python.svg" alt="python" /><span>Python</span></span>
-            <span className="skill__self"><img src="/index/javascript.svg" alt="javascript" /><span>JavaScript</span></span>
+            <span className="skill__self"><img src="/images/index/python.svg" alt="python" /><span>Python</span></span>
+            <span className="skill__self"><img src="/images/index/javascript.svg" alt="javascript" /><span>JavaScript</span></span>
           </div>
           <h3>Kantor</h3>
           <div className="skill__type">
-            <span className="skill__self"><img src="/index/microsoft_word_2019.svg" alt="word" /><span>Word</span></span>
-            <span className="skill__self"><img src="/index/microsoft_excel_2019.svg" alt="excel" /><span>Excel</span></span>
-            <span className="skill__self"><img src="/index/microsoft_powerpoint_2019.svg" alt="powerpoint" /><span>PowerPoint</span></span>
+            <span className="skill__self"><img src="/images/index/microsoft_word_2019.svg" alt="word" /><span>Word</span></span>
+            <span className="skill__self"><img src="/images/index/microsoft_excel_2019.svg" alt="excel" /><span>Excel</span></span>
+            <span className="skill__self"><img src="/images/index/microsoft_powerpoint_2019.svg" alt="powerpoint" /><span>PowerPoint</span></span>
           </div>
         </div>
         <h2>Sertifikat</h2>
