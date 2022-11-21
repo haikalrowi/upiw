@@ -1,15 +1,15 @@
 import Head from "next/head";
 
-import HeaderNav from "./components/headerNav";
+import HeaderNav from "../components/headerNav";
 
 export default function Contact() {
   return (
     <>
-      {/* <link rel="stylesheet" href="/styles/contact.css" /> */}
       <Head>
         <title>Haikal Rowi &ndash; Kontak</title>
       </Head>
       <HeaderNav header="Kontak" />
+      <link rel="stylesheet" href="/styles/contact.css" />
       <article>
         <p>Saya akan mencoba membalas sesegera mungkin.</p>
         <table>

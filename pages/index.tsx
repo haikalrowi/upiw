@@ -1,22 +1,22 @@
 import Head from "next/head";
 import Image from "next/image";
 
+import HeaderNav from "../components/headerNav";
 import cert1 from "../public/images/index/-certificates-abc2a3234903.png";
-import profilePicture from "../public/images/index/agfpa2fscm93aq.jpg";
-import HeaderNav from "./components/headerNav";
+import profilePic from "../public/images/index/agfpa2fscm93aq.jpg";
 
 export default function Home() {
   return (
     <>
-      {/* <link rel="stylesheet" href="/styles/index.css" /> */}
       <Head>
         <title>Haikal Rowi &ndash; Portofolio</title>
       </Head>
       <HeaderNav header='Haikal Rowi' />
+      <link rel="stylesheet" href="/styles/index.css" />
       <article>
         <div style={{ textAlign: 'center' }}>
           <Image
-            src={profilePicture}
+            src={profilePic}
             alt='Foto Haikal Rowi'
             loading="eager"
             style={{
