@@ -13,20 +13,20 @@ export default function Home() {
         <title>Haikal Rowi &ndash; Portofolio</title>
       </Head>
       <HeaderNav header='Haikal Rowi' />
-      <div style={{ textAlign: 'center' }}>
-        <Image
-          src={profilePicture}
-          alt='Foto Haikal Rowi'
-          loading="eager"
-          style={{
-            borderRadius: '50%',
-            width: '100%',
-            maxWidth: '12rem',
-            height: 'auto',
-          }}
-        />
-      </div>
       <article>
+        <div style={{ textAlign: 'center' }}>
+          <Image
+            src={profilePicture}
+            alt='Foto Haikal Rowi'
+            loading="eager"
+            style={{
+              borderRadius: '50%',
+              width: '100%',
+              maxWidth: '12rem',
+              height: 'auto',
+            }}
+          />
+        </div>
         <p>Halo, saya seorang mahasiswa STIKOM PGRI Banyuwangi, jurusan S1 Teknik Informatika. Saya suka belajar tentang apa saja di sisi <i>server</i>.</p>
         <h2>Skill</h2>
         <div className="skill">
