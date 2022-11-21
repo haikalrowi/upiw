@@ -5,7 +5,7 @@ nav {
   position: sticky;
   top: 0px;
   background-color: white;
-  padding: 0.33rem 0px;
+  padding-bottom: 0.33rem;
   box-shadow: 0px 0px 16px white;
 }
 nav a:first-child {
@@ -13,7 +13,7 @@ nav a:first-child {
 }
 
 hr {
-  margin: 0.33rem 0.33rem 1rem;
+  margin: 0.67rem 0.33rem 1rem;
 }
 
 @media (orientation: portrait) {
