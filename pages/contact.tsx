@@ -5,7 +5,7 @@ import HeaderNav from "./components/headerNav";
 export default function Contact() {
   return (
     <>
-      <link rel="stylesheet" href="/styles/contact.css" />
+      {/* <link rel="stylesheet" href="/styles/contact.css" /> */}
       <Head>
         <title>Haikal Rowi &ndash; Kontak</title>
       </Head>

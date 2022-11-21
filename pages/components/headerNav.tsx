@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function (props: { header: string }) {
   return (
     <>
-      <link rel="stylesheet" href="/styles/headerNav.css" />
+      {/* <link rel="stylesheet" href="/styles/headerNav.css" /> */}
       <header>
         <h1>{props.header ? <>{props.header}</> : <></>}</h1>
       </header>

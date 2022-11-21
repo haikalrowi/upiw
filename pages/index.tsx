@@ -8,7 +8,7 @@ import HeaderNav from "./components/headerNav";
 export default function Home() {
   return (
     <>
-      <link rel="stylesheet" href="/styles/index.css" />
+      {/* <link rel="stylesheet" href="/styles/index.css" /> */}
       <Head>
         <title>Haikal Rowi &ndash; Portofolio</title>
       </Head>
